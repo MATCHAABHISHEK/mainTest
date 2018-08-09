@@ -1,0 +1,95 @@
+1)signup
+2)sidebar
+3)terms and conditions page
+4)change password page with functiolity
+5)salesforce api (getting data into modal)
+6)Add New user functionality with UI(for both customer admin and protigrity admin)
+7)typography
+8)Bugs
+   1)changed names in side bar and its related places
+   2)Added exact path to all breadcrum including the My profile
+   3)created the label by giving alert message before opening the product page 
+   4)fixed the supportcases data loding bug
+   5)worked on footer
+   6)modified date format
+   7)centered the checkboxes
+   8)added customerservertry column and got data to it
+9)Notification messages are sent to every particular point
+10)made Responsive testing and found UI breaking bugs and raised tickets in jira and also updated on sheet
+11)fixed UI breakdown BUGS
+    1)sidebar
+    2)changepassword page
+12)
+User.objects.filter(email__in=email_list)
+
+
+
+
+
+
+
+
+
+52-54 in task.py
+
+
+mails = User.objects.filter(email__in=to_mail)
+    for m in mails:
+        notify.send(m, recipient=m, verb=subject)
+
+
+
+
+
+
+.abc {
+  min-height: 100%;
+
+.sda{
+ 
+  padding-bottom: 1em;
+}
+}
+
+
+.foot{
+    position: relative;
+    margin-top: -1em;
+    height: 1em;
+    clear: both;
+    background-color: transparent;
+    font-size:$xs-font-size;
+}
+
+
+
+
+
+
+
+
+ main.scsss
+body {
+  height: calc(100vh - #{$header-height});
+  background-color: #f6f7fa;
+  font-family: 'OpenSansRegular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer d-flex flex-row p-2">
+                Need Assiatance? call +1203-326-7200 or email us to TBD@protegrity.com
+                <div class="right-footer">Copyright © 2017 Protegrity USA, Inc. All rights reserved</div>
+        </footer>
