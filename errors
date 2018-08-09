@@ -1,0 +1,12 @@
+
+for vMemory 
+
+1)
+for moid=vm-37915
+value in json=32
+value in csv =0
+2)
+for moid= vm-41154
+value in json=None
+value in csv =0
+
